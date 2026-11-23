@@ -1,0 +1,136 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Página ===== */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background-color: #f5f2eb;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px 48px;
+}
+
+/* ===== Textos ===== */
+.headline {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #e1624f;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #1f1f1f;
+  margin-top: 4px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+  color: #1f1f1f;
+  margin-top: 4px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 16px;
+}
+
+/* ===== Imagens ===== */
+img {
+  display: block;
+  width: 100%;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+.intro figure {
+  margin-top: 36px;
+}
+
+.intro img {
+  height: 375px;
+}
+
+figcaption {
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+  color: #555555;
+  margin-top: 16px;
+}
+
+/* ===== Linha divisória ===== */
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 48px 0;
+  background-color: #d9d9d9;
+}
+
+/* ===== Lista ===== */
+ul {
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+ul li::marker {
+  color: #e1624f;
+}
+
+/* ===== Atrações ===== */
+article {
+  margin-top: 48px;
+}
+
+article img {
+  height: 300px;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #e1624f;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Rodapé ===== */
+footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  padding: 32px 24px;
+  border-top: 1px solid #d9d9d9;
+}
+
+footer p {
+  margin-top: 4px;
+}
